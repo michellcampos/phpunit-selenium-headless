@@ -1,4 +1,4 @@
-docker-selenium-firefox-chrome-beta
+docker-phpunit-selenium-headless
 ===================================
 
 A Dockerfile starting a selenium standalone server with Chrome and Firefox beta.
@@ -10,6 +10,6 @@ It exposes:
 Running:
 
 ```shell
-docker pull vvoyer/docker-selenium-firefox-chrome
-docker run --privileged -p 4444:4444 -p 5999:5999 -d vvoyer/docker-selenium-firefox-chrome
+docker pull michellcampos/docker-phpunit-selenium-headless
+docker run --privileged -p 4444:4444 -p 5999:5999 -d michellcampos/docker-phpunit-selenium-headless
 ```
