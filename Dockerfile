@@ -42,7 +42,7 @@ RUN apt-get install vim -qqy
 RUN apt-get install python-software-properties -y
 RUN add-apt-repository ppa:ondrej/php5-5.6 -y
 RUN apt-get update -qqy
-RUN apt-get install curl php5 php5-cli php5-curl git -y --force-yes
+RUN apt-get install curl php5 php5-xdebug php5-cli php5-curl git -y --force-yes
 
 #INSTALL PHPUNIT
 RUN apt-get update -qqy
