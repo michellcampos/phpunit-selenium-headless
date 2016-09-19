@@ -10,6 +10,6 @@ It exposes:
 Running:
 
 ```shell
-docker pull michellcampos/docker-phpunit-selenium-headless
+docker pull michellcampos/phpunit-selenium-headless
 docker run --privileged -p 4444:4444 -p 5999:5999 -d michellcampos/docker-phpunit-selenium-headless
 ```
