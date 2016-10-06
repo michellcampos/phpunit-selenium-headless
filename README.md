@@ -11,5 +11,5 @@ Running:
 
 ```shell
 docker pull michellcampos/phpunit-selenium-headless
-docker run --privileged -p 4444:4444 -p 5999:5999 -d michellcampos/docker-phpunit-selenium-headless
+docker run --privileged -p 4444:4444 -p 5999:5999 -v (path test suite):/testes -d michellcampos/phpunit-selenium-headless
 ```
